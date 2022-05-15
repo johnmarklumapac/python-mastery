@@ -1,3 +1,6 @@
-from EF2_Lumapac import my_function
+A = {'a', 'b', 'c'}
+B = {'c', 'd', 'e'}
+C = {'f', 'g', 'c'}
 
-my_function() 
+print(A.union(B, C) )
+print(A.intersection(B, C))
